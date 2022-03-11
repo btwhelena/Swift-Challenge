@@ -1,3 +1,3 @@
-# Hello
+# Swift Challenge
 
-A description of this package.
+My first swift experience :)
