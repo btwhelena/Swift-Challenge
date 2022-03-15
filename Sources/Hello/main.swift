@@ -39,43 +39,38 @@ print("4 - Chocolate powder")
 print("5 - Yeast")
 print("6 - Baking Powder")
 print("7 - Butter")
-print("8 - Milk")
-print("9 - Water")
-print("10 - Oil")
 print("Type a number: ", terminator: "")
 
 var intOption: Int?
 
-
 //Reading user`s option
 let option = readLine()
 intOption = Int(option!)
+print(intOption!) //teste
 
-/* switch option{
+switch intOption {
+    
   case 0:
-  
+    print("You selected Wheat Flour!")
   case 1:
-
+    print("You selected Sugar!")
   case 2:
-
+    print("You selected Corn Start!")
   case 3:
-
+    print("You selected Oat!")
   case 4:
-
+    print("You selected Chocolate Powder!")
   case 5:
-
+    print("You selected Yeast!")
   case 6:
-
+    print("You selected Baking Powder!")
   case 7:
-
-  case 8:
-
-  case 9:
-
-  case 10:
+    print("You selected Butter!")
+case .none:
+    print("ERROR! Type a valid option")
+case .some(_):
+    print("ERROR! Type an option between 0 and 7")
 }
-*/
- 
 
 //Reading weight
 var intWeight: Int = 0

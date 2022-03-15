@@ -46,24 +46,6 @@
     "teaCup": 200,
     "tableSpoon": 12,
     "teaSpoon": 4
-},
-  {
-    "name": "Milk",
-    "teaCup": 240,
-    "tableSpoon": 15,
-    "teaSpoon": 5
-},
-  {
-    "name": "Water",
-    "teaCup": 240,
-    "tableSpoon": 15,
-    "teaSpoon": 5
-},
-  {
-    "name": "Oil",
-    "teaCup": 240,
-    "tableSpoon": 15,
-    "teaSpoon": 5
 }
 ]
 
