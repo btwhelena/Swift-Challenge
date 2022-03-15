@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Wheat Flour",
+    "teaCup": 120,
+    "tableSpoon": 8,
+    "teaSpoon": 3
+},
+  {
+    "name": "Sugar",
+    "teaCup": 200,
+    "tableSpoon": 14,
+    "teaSpoon": 5
+},
+  {
+    "name": "Corn Start",
+    "teaCup": 150,
+    "tableSpoon": 9,
+    "teaSpoon": 3
+},
+  {
+    "name": "Oat",
+    "teaCup": 80,
+    "tableSpoon": 5,
+    "teaSpoon": 2
+},
+  {
+    "name": "Chocolate powder",
+    "teaCup": 90,
+    "tableSpoon": 6,
+    "teaSpoon": 2
+},
+  {
+    "name": "Yeast",
+    "teaCup": 160,
+    "tableSpoon": 10,
+    "teaSpoon": 3
+},
+  {
+    "name": "Baking powder",
+    "teaCup": 224,
+    "tableSpoon": 14,
+    "teaSpoon": 5
+},
+  {
+    "name": "Butter",
+    "teaCup": 200,
+    "tableSpoon": 12,
+    "teaSpoon": 4
+},
+  {
+    "name": "Milk",
+    "teaCup": 240,
+    "tableSpoon": 15,
+    "teaSpoon": 5
+},
+  {
+    "name": "Water",
+    "teaCup": 240,
+    "tableSpoon": 15,
+    "teaSpoon": 5
+},
+  {
+    "name": "Oil",
+    "teaCup": 240,
+    "tableSpoon": 15,
+    "teaSpoon": 5
+}
+]
+
