@@ -29,7 +29,7 @@ guard let data = try? Data(contentsOf: urlForIngredients),
 }
 
 //Menu
-print("🍉 Welcome to Kitchen Assistant! 🥑 \n")
+print("🍰 Welcome to Kitchen Assistant! 🍕 \n")
 print("Select ingredient from the list below: \n")
 print("0 - Wheat Flour")
 print("1 - Sugar")
@@ -42,50 +42,85 @@ print("7 - Butter")
 print("Type a number: ", terminator: "")
 
 var intOption: Int?
+//Function to read weight
+var intWeight: Int = 0
 
 //Reading user`s option
 let option = readLine()
 intOption = Int(option!)
-print(intOption!) //teste
 
+//Choosing the ingredient
 switch intOption {
     
   case 0:
     print("You selected Wheat Flour!")
+    readGrams()
+    conversor(input: intWeight)
+    
   case 1:
     print("You selected Sugar!")
+    readGrams()
+    conversor(input: intWeight)
+    
   case 2:
     print("You selected Corn Start!")
+    readGrams()
+    conversor(input: intWeight)
+    
   case 3:
     print("You selected Oat!")
+    readGrams()
+    conversor(input: intWeight)
+    
   case 4:
     print("You selected Chocolate Powder!")
+    readGrams()
+    conversor(input: intWeight)
+    
   case 5:
     print("You selected Yeast!")
+    readGrams()
+    conversor(input: intWeight)
+    
   case 6:
     print("You selected Baking Powder!")
+    readGrams()
+    conversor(input: intWeight)
+    
   case 7:
     print("You selected Butter!")
+    readGrams()
+    conversor(input: intWeight)
+    
 case .none:
     print("ERROR! Type a valid option")
 case .some(_):
     print("ERROR! Type an option between 0 and 7")
 }
 
-//Reading weight
-var intWeight: Int = 0
 
-func readGrams(weight: Int) -> Int {
-  while (true){
+
+func readGrams(){
     print("Enter ingredient weight in grams: ", terminator: "")
     let weight = readLine()
-    let intWeight = Int(weight!)
-    if (intWeight == nil || intWeight! <= 0) {
+    let intString = Int(weight!)
+    if (intString == nil || intString! <= 0) {
             print ("Type a valid weight in grams")
-    }
-    else {
-            break
+    } else {
+        intWeight = intString!
     }
   }
-    return intWeight
+
+func conversor(input: Int){
+    var totalTeaCup = 0
+    var totalTableSpoon = 0
+    var totalTeaSpoon = 0
+    
+    totalTeaCup = (input / (ingredients[intOption!].teaCup))
+    totalTableSpoon = (input / (ingredients[intOption!].tableSpoon))
+    totalTeaSpoon = (input / (ingredients[intOption!].teaSpoon))
+    
+    print("Number of Tea Cups: \(totalTeaCup) ")
+    print("Number of Table Spoons:\(totalTableSpoon) ")
+    print("Number of Tea Spoons: \(totalTeaSpoon) ")
 }
