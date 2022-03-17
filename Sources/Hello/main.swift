@@ -14,15 +14,6 @@ guard let urlForIngredients = Bundle.module.url(forResource: "Ingredients", with
     exit(0)
 }
 
-//do {
-//    let data = try Data(contentsOf: urlForIngredients)
-//    let ingredients = try JSONDecoder().decode([Ingredient].self, from: data)
-//    print(ingredients[0].name)
-//
-//} catch {
-//    print(error)
-//}
-
 guard let data = try? Data(contentsOf: urlForIngredients),
       let ingredients = try? JSONDecoder().decode([Ingredient].self, from: data) else {
     exit(0)
@@ -50,7 +41,8 @@ var intWeight: Int = 0
 let option = readLine()
 intOption = Int(option!)
 
-print("\n")
+print("\n") //Next line
+
 //Choosing the ingredient
 switch intOption {
     
@@ -100,6 +92,7 @@ case .some(_):
     print("⚠️ ERROR! Type an option between 0 and 7")
 }
 
+//Reading weight in grams
 func readGrams(){
     print("👉🏻 Enter ingredient weight in grams: ", terminator: "")
     let weight = readLine()
@@ -111,6 +104,7 @@ func readGrams(){
     }
   }
 
+//Converting weight
 func conversor(input: Int){
     var totalTeaCup = 0
     var totalTableSpoon = 0
