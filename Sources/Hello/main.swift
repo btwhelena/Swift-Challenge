@@ -87,9 +87,9 @@ switch intOption {
     conversor(input: intWeight)
     
 case .none:
-    print("⚠️ ERROR! Type a valid option")
+    print("⚠️ ERROR! Type a valid option") //Add return
 case .some(_):
-    print("⚠️ ERROR! Type an option between 0 and 7")
+    print("⚠️ ERROR! Type an option between 0 and 7") //Add return
 }
 
 //Reading weight in grams
