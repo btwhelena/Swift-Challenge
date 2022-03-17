@@ -29,17 +29,18 @@ guard let data = try? Data(contentsOf: urlForIngredients),
 }
 
 //Menu
-print("🍰 Welcome to Kitchen Assistant! 🍕 \n")
-print("Select ingredient from the list below: \n")
-print("0 - Wheat Flour")
-print("1 - Sugar")
-print("2 - Corn Start")
-print("3 - Oat")
-print("4 - Chocolate powder")
-print("5 - Yeast")
-print("6 - Baking Powder")
-print("7 - Butter")
-print("Type a number: ", terminator: "")
+print("🍰 Hi there! Welcome to Kitchen Assistant! 🍕 \n")
+print("👉🏻 Select an ingredient from the list below: \n")
+print("0️⃣ - Wheat Flour")
+print("1️⃣ - Sugar")
+print("2️⃣ - Corn Start")
+print("3️⃣ - Oat")
+print("4️⃣ - Chocolate powder")
+print("5️⃣ - Yeast")
+print("6️⃣ - Baking Powder")
+print("7️⃣ - Butter")
+print("\n")
+print("👉🏻 Please type a number: ", terminator: "")
 
 var intOption: Int?
 //Function to read weight
@@ -49,59 +50,58 @@ var intWeight: Int = 0
 let option = readLine()
 intOption = Int(option!)
 
+print("\n")
 //Choosing the ingredient
 switch intOption {
     
   case 0:
-    print("You selected Wheat Flour!")
+    print("✅ You selected Wheat Flour!")
     readGrams()
     conversor(input: intWeight)
     
   case 1:
-    print("You selected Sugar!")
+    print("➡️ You selected Sugar!")
     readGrams()
     conversor(input: intWeight)
     
   case 2:
-    print("You selected Corn Start!")
+    print("➡️ You selected Corn Start!")
     readGrams()
     conversor(input: intWeight)
     
   case 3:
-    print("You selected Oat!")
+    print("➡️ You selected Oat!")
     readGrams()
     conversor(input: intWeight)
     
   case 4:
-    print("You selected Chocolate Powder!")
+    print("➡️ You selected Chocolate Powder!")
     readGrams()
     conversor(input: intWeight)
     
   case 5:
-    print("You selected Yeast!")
+    print("➡️ You selected Yeast!")
     readGrams()
     conversor(input: intWeight)
     
   case 6:
-    print("You selected Baking Powder!")
+    print("➡️ You selected Baking Powder!")
     readGrams()
     conversor(input: intWeight)
     
   case 7:
-    print("You selected Butter!")
+    print("➡️ You selected Butter!")
     readGrams()
     conversor(input: intWeight)
     
 case .none:
-    print("ERROR! Type a valid option")
+    print("⚠️ ERROR! Type a valid option")
 case .some(_):
-    print("ERROR! Type an option between 0 and 7")
+    print("⚠️ ERROR! Type an option between 0 and 7")
 }
 
-
-
 func readGrams(){
-    print("Enter ingredient weight in grams: ", terminator: "")
+    print("👉🏻 Enter ingredient weight in grams: ", terminator: "")
     let weight = readLine()
     let intString = Int(weight!)
     if (intString == nil || intString! <= 0) {
@@ -120,7 +120,11 @@ func conversor(input: Int){
     totalTableSpoon = (input / (ingredients[intOption!].tableSpoon))
     totalTeaSpoon = (input / (ingredients[intOption!].teaSpoon))
     
-    print("Number of Tea Cups: \(totalTeaCup) ")
-    print("Number of Table Spoons:\(totalTableSpoon) ")
-    print("Number of Tea Spoons: \(totalTeaSpoon) ")
+    print("\n")
+    print(" Number of Tea Cups: \(totalTeaCup) ")
+    print(" ----- OR -----")
+    print(" Number of Table Spoons: \(totalTableSpoon) ")
+    print(" ----- OR -----")
+    print(" Number of Tea Spoons: \(totalTeaSpoon) \n")
+    print("😄 Thanks for using Kitchen Assistant! 😄")
 }
