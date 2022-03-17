@@ -19,7 +19,7 @@ guard let data = try? Data(contentsOf: urlForIngredients),
     exit(0)
 }
 
-//Menu
+//Menujkjhkj
 print("🍰 Hi there! Welcome to Kitchen Assistant! 🍕 \n")
 print("👉🏻 Select an ingredient from the list below: \n")
 print("0️⃣ - Wheat Flour")
