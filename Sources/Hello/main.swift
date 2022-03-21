@@ -132,6 +132,9 @@ func conversor(input: Int){
     totalTableSpoon = (input / (ingredients[intOption!].tableSpoon))
     totalTeaSpoon = (input / (ingredients[intOption!].teaSpoon))
     
+    if (totalTeaSpoon == 0){
+        totalTeaSpoon = 1
+    }
     
     print("\n")
     print(" Number of Tea Cups: \(totalTeaCup) ")
