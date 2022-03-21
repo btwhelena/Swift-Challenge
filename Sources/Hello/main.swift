@@ -30,6 +30,9 @@ print("4️⃣ - Chocolate powder")
 print("5️⃣ - Yeast")
 print("6️⃣ - Baking Powder")
 print("7️⃣ - Butter")
+print("8️⃣ - Coffee Powder")
+print("9️⃣ - Peanut Butter")
+print("🔟 - Grated Cheese")
 print("\n")
 print("👉🏻 Please type a number: ", terminator: "")
 
@@ -85,11 +88,26 @@ switch intOption {
     print("➡️ You selected Butter!")
     readGrams()
     conversor(input: intWeight)
+
+  case 8:
+  print("➡️ You selected Coffee Powder!")
+  readGrams()
+  conversor(input: intWeight)
+    
+  case 9:
+  print("➡️ You selected Peanut Butter!")
+  readGrams()
+  conversor(input: intWeight)
+    
+  case 10:
+  print("➡️ You selected Grated Cheese!")
+  readGrams()
+  conversor(input: intWeight)
     
 case .none:
     print("⚠️ ERROR! Type a valid option") //Add return
 case .some(_):
-    print("⚠️ ERROR! Type an option between 0 and 7") //Add return
+    print("⚠️ ERROR! Type an option between 0 and 13") //Add return
 }
 
 //Reading weight in grams
@@ -113,6 +131,7 @@ func conversor(input: Int){
     totalTeaCup = (input / (ingredients[intOption!].teaCup))
     totalTableSpoon = (input / (ingredients[intOption!].tableSpoon))
     totalTeaSpoon = (input / (ingredients[intOption!].teaSpoon))
+    
     
     print("\n")
     print(" Number of Tea Cups: \(totalTeaCup) ")

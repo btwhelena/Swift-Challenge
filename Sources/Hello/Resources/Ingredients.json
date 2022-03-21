@@ -46,6 +46,24 @@
     "teaCup": 200,
     "tableSpoon": 12,
     "teaSpoon": 4
+},
+  {
+    "name": "Coffee Powder",
+    "teaCup": 80,
+    "tableSpoon": 5,
+    "teaSpoon": 2
+},
+  {
+    "name": "Peanut Butter",
+    "teaCup": 258,
+    "tableSpoon": 16,
+    "teaSpoon": 5
+},
+  {
+    "name": "Grated Cheese",
+    "teaCup": 90,
+    "tableSpoon": 6,
+    "teaSpoon": 2
 }
 ]
 
