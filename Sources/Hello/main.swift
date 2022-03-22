@@ -7,7 +7,7 @@ struct Ingredient: Codable {
     var teaSpoon: Int
     var teaCup: Int
 }
-
+//alksdlksdklsadksadtest
 //reading JSON file
 let currentDirectory = URL(fileURLWithPath: FileManager.default.currentDirectoryPath)
 guard let urlForIngredients = Bundle.module.url(forResource: "Ingredients", withExtension: "json") else {
