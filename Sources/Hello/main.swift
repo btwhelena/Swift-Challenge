@@ -1,5 +1,7 @@
 import Foundation
 
+func kitchenAssistant(){
+
 //Creating Ingredient model
 struct Ingredient: Codable {
     var name: String
@@ -37,6 +39,7 @@ print("\n")
 print("👉🏻 Please type a number: ", terminator: "")
 
 var intOption: Int?
+    
 //Function to read weight
 var intWeight: Int = 0
 
@@ -104,10 +107,15 @@ switch intOption {
   readGrams()
   conversor(input: intWeight)
     
-case .none:
-    print("⚠️ ERROR! Type a valid option") //Add return
-case .some(_):
-    print("⚠️ ERROR! Type an option between 0 and 13") //Add return
+  case .none:
+    print("⚠️ ERROR! Invalid option. Try again.")
+    print("\n")
+   kitchenAssistant()
+    
+  case .some(_):
+    print("⚠️ ERROR! Invalid option. Try again and select a number between 0 and 10")
+    print("\n")
+    kitchenAssistant()
 }
 
 //Reading weight in grams
@@ -132,6 +140,9 @@ func conversor(input: Int){
     totalTableSpoon = (input / (ingredients[intOption!].tableSpoon))
     totalTeaSpoon = (input / (ingredients[intOption!].teaSpoon))
     
+    if (totalTeaSpoon == 0){
+        totalTeaSpoon = 1
+    }
     
     print("\n")
     print(" Number of Tea Cups: \(totalTeaCup) ")
@@ -140,4 +151,33 @@ func conversor(input: Int){
     print(" ----- OR -----")
     print(" Number of Tea Spoons: \(totalTeaSpoon) \n")
     print("😄 Thanks for using Kitchen Assistant! 😄")
+    
+    print("👉🏻 Do you want to select another ingredient?")
+    
+    print("1️⃣ - Yes")
+    print("2️⃣ - No")
+    
+    //Reading user`s option
+    var intOption2: Int?
+    let option2 = readLine()
+    intOption2 = Int(option2!)
+    
+    switch intOption2 {
+        case 1:
+        kitchenAssistant()
+  
+        case 2:
+        print("See you later 👋🏻")
+        
+        case .none:
+        print("⚠️ ERROR! Invalid option.")
+        
+        case .some(_):
+        print("⚠️ ERROR! Invalid option. Try again.")
+
+    }
 }
+
+}
+
+kitchenAssistant()
