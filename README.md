@@ -1,4 +1,4 @@
-# Swift Challenge
+# Swift Challenge: Kitchen Assistant
 
 My first swift experience :)
 
