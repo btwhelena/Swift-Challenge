@@ -7,11 +7,11 @@ The application works in a simple way and has the main ingredients used in recip
 
 This application was built for the **Apple Developer Academy - IFCE** Swift Challenge, using **Challenge Based Learning** (CBL) framework.
 
-## Documentation
+## 📄 Documentation
 
 [Notion - Swift Challenge Documentation](https://tricolor-dinner-46b.notion.site/Swift-Challenge-692420eba01b41988356d966aa2e89cc)
 
-## Ingredients and measurements
+## 🥑 Ingredients and measurements
 1. Ingredients
 - Wheat Flour
 - Sugar
@@ -30,14 +30,14 @@ This application was built for the **Apple Developer Academy - IFCE** Swift Chal
 - Tablespoon
 - Teaspoon
 
-## How to use
+## 💡 How to use
 
-## Demonstration
+## 💻 Demonstration
 
 <p align="center">
   <img src="https://j.gifs.com/PjK8k1.gif" />
 </p>
 
-## Learnings
+## 💭 Learnings
 
 This was one of my first experiences with Swift. In this challenge, I was able to learn the basics of Swift and how to use and decode a JSON file. I also learned to use Github and Xcode. I hope to continue developing applications and learn much more :)
