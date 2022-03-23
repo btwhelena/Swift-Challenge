@@ -145,11 +145,11 @@ func conversor(input: Int){
     }
     
     print("\n")
-    print(" Number of Tea Cups: \(totalTeaCup) ")
+    print(" Number of Teacups: \(totalTeaCup) ")
     print(" ----- OR -----")
-    print(" Number of Table Spoons: \(totalTableSpoon) ")
+    print(" Number of Tablespoons: \(totalTableSpoon) ")
     print(" ----- OR -----")
-    print(" Number of Tea Spoons: \(totalTeaSpoon) \n")
+    print(" Number of Teaspoons: \(totalTeaSpoon) \n")
     print("😄 Thanks for using Kitchen Assistant! 😄")
     
     print("👉🏻 Do you want to select another ingredient?")
