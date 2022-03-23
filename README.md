@@ -12,11 +12,13 @@ This application was built for the **Apple Developer Academy - IFCE** Swift Chal
 [Notion - Swift Challenge Documentation](https://tricolor-dinner-46b.notion.site/Swift-Challenge-692420eba01b41988356d966aa2e89cc)
 
 
-## Screenshots
+## Demonstration
 
-Demo:
+<p align="center">
+  <img src="https://j.gifs.com/PjK8k1.gif" />
+</p>
 
-![Demo](https://j.gifs.com/PjK8k1.gif)
+
 
 
 ## Learnings
