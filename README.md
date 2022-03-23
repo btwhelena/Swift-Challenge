@@ -3,7 +3,7 @@
 
 Kitchen Assistant is a CLI application designed to help people weigh food for a recipe, without needing a scale.
 
-The application works in a simple way and has the main ingredients used in recipes, such as wheat flour, sugar, etc. Measuring types include teacups, tablespoons, and teaspoons.
+The application works in a simple way and has the main ingredients used in recipes, such as wheat flour, sugar, etc. Measurements include teacups, tablespoons, and teaspoons.
 
 This application was built for the **Apple Developer Academy - IFCE** Swift Challenge, using **Challenge Based Learning** (CBL) framework.
 
@@ -11,15 +11,32 @@ This application was built for the **Apple Developer Academy - IFCE** Swift Chal
 
 [Notion - Swift Challenge Documentation](https://tricolor-dinner-46b.notion.site/Swift-Challenge-692420eba01b41988356d966aa2e89cc)
 
+## Ingredients and measurements
+1. Ingredients
+- Wheat Flour
+- Sugar
+- Corn Start
+- Oat
+- Chocolate Powder
+- Yeast
+- Baking Powder
+- Butter
+- Coffee Powder
+- Peanut Butter
+- Grated Cheese
+
+2. Measurements
+- Teacup
+- Tablespoon
+- Teaspoon
+
+## How to use
 
 ## Demonstration
 
 <p align="center">
   <img src="https://j.gifs.com/PjK8k1.gif" />
 </p>
-
-
-
 
 ## Learnings
 
