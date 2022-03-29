@@ -1,3 +1,4 @@
+<img src="https://img.shields.io/github/repo-size/btwhelena/Swift-Challenge"> <img src="https://img.shields.io/github/license/btwhelena/Swift-Challenge">
 
 # Kitchen Assistant
 
@@ -79,14 +80,16 @@ swift run || swift build
   <img src="https://i.ibb.co/3F8j3g1/Captura-de-Tela-2022-03-28-s-10-52-10.png"/>
 </p>
 
-**▶︎ Final interaction:**
+**▶︎ Final menu:**
 <p align="center">
   <img src="https://i.ibb.co/zPc6k2T/Captura-de-Tela-2022-03-28-s-10-52-29.png"/>
 </p>
 
+## 🔜 Future features
+
+- More ingredients, including liquid ingredients
+- Combine measurements (E.g. 4 teacups and 2 tablespoons)
+
 ## 💭 Learnings
 
-This was one of my first experiences with Swift. In this challenge, I was able to learn the basics of Swift and how to use and decode a JSON file. I also learned to use Github and Xcode. I hope to continue developing applications and learn much more :)
-
-
-[⬆️ Back to the top](#Kitchen Assistant)<br>
+This was one of my first experiences with Swift. In this challenge, I was able to learn the basics of Swift and how to use and decode a JSON file. I also learned to use Github and Xcode. I hope to continue developing applications and learn much more ☺️
