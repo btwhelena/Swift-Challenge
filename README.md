@@ -1,5 +1,5 @@
 
-## Kitchen Assistant
+# Kitchen Assistant
 
 Kitchen Assistant is a CLI application designed to help people weigh food for a recipe, without needing a scale.
 
@@ -87,3 +87,6 @@ swift run || swift build
 ## 💭 Learnings
 
 This was one of my first experiences with Swift. In this challenge, I was able to learn the basics of Swift and how to use and decode a JSON file. I also learned to use Github and Xcode. I hope to continue developing applications and learn much more :)
+
+
+[⬆️ Back to the top](#Kitchen Assistant)<br>
