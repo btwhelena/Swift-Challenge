@@ -30,7 +30,7 @@ Read the **documentation** [here](https://tricolor-dinner-46b.notion.site/Swift-
 
 ## 💡 How to use
 
-# Xcode
+###### Xcode
 
 **1.** Open _Xcode_ and go to _Source Control -> Clone_
 
@@ -40,7 +40,7 @@ https://github.com/btwhelena/Swift-Challenge.git
 ```
 **3.** Run _main.swift_ file
 
-# Terminal
+###### Terminal
 
 **1.** Clone this project
 ```
