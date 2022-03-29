@@ -29,6 +29,30 @@ Read the **documentation** [here](https://tricolor-dinner-46b.notion.site/Swift-
 - Teaspoon
 
 ## 💡 How to use
+
+# Xcode
+
+**1.** Open _Xcode_ and go to _Source Control -> Clone_
+
+**2.** Paste the link below and clone this project
+```
+https://github.com/btwhelena/Swift-Challenge.git
+```
+**3.** Run _main.swift_ file
+
+# Terminal
+
+**1.** Clone this project
+```
+git clone https://github.com/btwhelena/Swift-Challenge.git
+```
+**2.** Execute using _swift run_ or _swift build_
+```
+swift run || swift build
+```
+
+## ⏩ Application step by step
+
 **1.** Choose an ingredient
 
 **2.** Type the weight in grams
@@ -37,11 +61,12 @@ Read the **documentation** [here](https://tricolor-dinner-46b.notion.site/Swift-
 
 **4.** Choose another ingredient or leave
 
+
 ## 💻 Demonstration and Screenshots
 
 **▶︎ Demo:**
 <p align="center">
-  <img src="https://j.gifs.com/J8KoLJ.gif" />
+  <img src="https://j.gifs.com/99A4WZ.gif" />
 </p>
 
 **▶︎ Ingredients menu:**
@@ -58,7 +83,6 @@ Read the **documentation** [here](https://tricolor-dinner-46b.notion.site/Swift-
 <p align="center">
   <img src="https://i.ibb.co/zPc6k2T/Captura-de-Tela-2022-03-28-s-10-52-29.png"/>
 </p>
-
 
 ## 💭 Learnings
 
